@@ -6,7 +6,7 @@
 APP_NAME("Casio WiFi")
 APP_DESCRIPTION("The GUI for my WiFi module driver")
 APP_AUTHOR("friedrichOsDev")
-APP_VERSION("1.0.0")
+APP_VERSION("0.1.0")
 
 extern "C"
 void main() {
