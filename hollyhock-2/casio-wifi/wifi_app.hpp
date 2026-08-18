@@ -1,7 +1,8 @@
 #pragma once
 
 #include <sdk/os/gui.hpp>
-#include "wifi.h" 
+#include "wifi.h"
+
 
 // Event IDs
 enum {

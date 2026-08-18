@@ -1,0 +1,43 @@
+[
+  {
+    "arguments": [
+      "/opt/cross/bin/sh4-elf-gcc",
+      "-c",
+      "-ffreestanding",
+      "-fshort-wchar",
+      "-Wall",
+      "-Wextra",
+      "-O2",
+      "-I",
+      "/workspace/hollyhock-2/sdk/include/",
+      "-o",
+      "rtc.o",
+      "rtc.c"
+    ],
+    "directory": "/workspace/hollyhock-2/casio-wifi",
+    "file": "/workspace/hollyhock-2/casio-wifi/rtc.c",
+    "output": "/workspace/hollyhock-2/casio-wifi/rtc.o"
+  },
+  {
+    "arguments": [
+      "/opt/cross/bin/sh4-elf-g++",
+      "-c",
+      "-ffreestanding",
+      "-fno-exceptions",
+      "-fno-rtti",
+      "-fshort-wchar",
+      "-Wall",
+      "-Wextra",
+      "-O2",
+      "-I",
+      "/workspace/hollyhock-2/sdk/include/",
+      "-m4a-nofpu",
+      "-o",
+      "wifi.o",
+      "wifi.cpp"
+    ],
+    "directory": "/workspace/hollyhock-2/casio-wifi",
+    "file": "/workspace/hollyhock-2/casio-wifi/wifi.cpp",
+    "output": "/workspace/hollyhock-2/casio-wifi/wifi.o"
+  }
+]

@@ -1,0 +1,13 @@
+CompileFlags:
+  Compiler: /opt/cross/bin/sh-elf-gcc
+
+  Add:
+    - --target=arm-none-eabi
+    - -D__SH4__
+    - -D__SH__
+  Remove:
+    - --target=sh*
+    - -m4*
+
+Index:
+  Background: Build

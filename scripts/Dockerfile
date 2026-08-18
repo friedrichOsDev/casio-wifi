@@ -4,7 +4,7 @@ SHELL ["/bin/bash", "-c"]
 
 RUN apt-get update && apt-get install -y \
     build-essential bison flex libgmp3-dev libmpc-dev libmpfr-dev \
-    libisl-dev texinfo wget g++ nasm git ca-certificates \
+    libisl-dev texinfo wget g++ nasm git ca-certificates clang \
     && rm -rf /var/lib/apt/lists/*
 
 ENV PREFIX="/opt/cross"
